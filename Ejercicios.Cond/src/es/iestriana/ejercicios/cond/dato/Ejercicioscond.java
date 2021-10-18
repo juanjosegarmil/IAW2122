@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Ejercicioscond {
 	
+	
 	private static Scanner sc = new Scanner(System.in);
 	public static void main(String[] args) {
 		System.out.println("Dime tu nota: ");
@@ -60,6 +61,7 @@ public class Ejercicioscond {
 			}
 		}
 		*/
+		
 		if (num1 == 5) {
 			System.out.println("Tu nota es un suficiente");
 		}else if (num1 < 5 && num1 > -1) {
