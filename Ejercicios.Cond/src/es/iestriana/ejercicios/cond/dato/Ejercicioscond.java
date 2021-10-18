@@ -6,9 +6,10 @@ public class Ejercicioscond {
 	
 	private static Scanner sc = new Scanner(System.in);
 	public static void main(String[] args) {
-		System.out.println("Nº 1: ");
-		int num1 = sc.nextInt();
+		System.out.println("Dime tu nota: ");
 		
+		int num1 = sc.nextInt();
+		/*
 		System.out.println("Nº 2: ");
 		int num2 = sc.nextInt();
 		
@@ -58,7 +59,20 @@ public class Ejercicioscond {
 				System.out.println(num3 + " " + num2 + " " + num1);
 			}
 		}
-		
+		*/
+		if (num1 == 5) {
+			System.out.println("Tu nota es un suficiente");
+		}else if (num1 < 5 && num1 > -1) {
+			System.out.println("Tu nota es un insuficiente");
+		}else if (num1 ==6) {
+			System.out.println("Tu nota es bien");
+		}else if (num1 > 6 && num1 < 9) {
+			System.out.println("Tu nota es notable");
+		}else if (num1 >8 && num1 < 11) {
+			System.out.println("Tu nota es sobresaliente");
+		} else {
+			System.out.println("Error número fuera de rango (0-10)");
+		}
 		sc.close();
 	}
 		
