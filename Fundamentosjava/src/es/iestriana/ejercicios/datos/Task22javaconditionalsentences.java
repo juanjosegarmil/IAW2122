@@ -17,8 +17,13 @@ public class Task22javaconditionalsentences {
 						cont++;
 					}
 					System.out.println("El nº " + numero + " tiene " + cont + " dígitos");
+				}else if(numero > 10000){
+					System.out.println("Error número de más de 4 dígitos");
+				}else if(numero < 0) {
+					System.out.println("Error número negativo");
 				}else {
-					System.out.println("Numero de más dígitos o negativo");
+				
+					System.out.println("Error");
 				}
 				
 			
