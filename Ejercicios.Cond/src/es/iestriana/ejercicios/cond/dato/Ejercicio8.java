@@ -1,5 +1,6 @@
 package es.iestriana.ejercicios.cond.dato;
 
+import java.util.Iterator;
 import java.util.Scanner;
 
 public class Ejercicio8 {
@@ -38,4 +39,6 @@ public class Ejercicio8 {
 					
 					return primo;
 				}
+					
 }
+
